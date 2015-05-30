@@ -1,0 +1,12 @@
+{
+  "editable": [
+    "app/hello.js"
+  ]
+  "includes": [
+    "test1.js",
+    "test2.js"
+  ],
+  "excludes": [
+    "test3.js"
+  ]
+}
