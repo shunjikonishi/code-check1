@@ -1,7 +1,7 @@
 {
   "editable": [
     "app/hello.js"
-  ]
+  ],
   "includes": [
     "test1.js",
     "test2.js"
