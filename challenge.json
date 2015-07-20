@@ -1,6 +1,6 @@
 {
   "editable": [
-    "app/hello.js",
+    "app/*",
     "test/test2.js"
   ],
   "includes": [
@@ -9,5 +9,6 @@
   ],
   "excludes": [
     "test3.js"
-  ]
+  ],
+  "allowNewFile": true
 }
