@@ -10,10 +10,11 @@
   "excludes": [
     "test3.js"
   ],
-  "vars": {
+  "envvars": {
     "var1": true,
     "var2": "defaultValue",
-    "var3": false
+    "var3": false,
+    "var4": 5
   },
   "allowNewFile": true
 }
