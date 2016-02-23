@@ -10,5 +10,10 @@
   "excludes": [
     "test3.js"
   ],
+  "vars": {
+    "var1": true,
+    "var2": "defaultValue",
+    "var3": false
+  },
   "allowNewFile": true
 }
