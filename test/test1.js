@@ -25,4 +25,8 @@ describe("test1", function() {
   it("bb", function() {
     assert(Hello.hello("bb"), "Hello bb");
   });
+  it("envvar - var1", function() {
+    var var1 = process.env.VAR1
+    assert(Hello.hello(var1), "Hello Taro");
+  });
 });
