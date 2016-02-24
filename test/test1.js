@@ -20,13 +20,13 @@ var Hello = require("../app/hello");
 //END_CHALLENGE
 describe("test1", function() {
   it("a", function() {
-    assert(Hello.hello("a"), "Hello a");
+    assert.equal(Hello.hello("a"), "Hello a");
   });
   it("bb", function() {
-    assert(Hello.hello("bb"), "Hello bb");
+    assert.equal(Hello.hello("bb"), "Hello bb");
   });
   it("envvar - var1", function() {
     var var1 = process.env.VAR1
-    assert(Hello.hello(var1), "Hello Taro");
+    assert.equal(Hello.hello(var1), "Hello Taro");
   });
 });
