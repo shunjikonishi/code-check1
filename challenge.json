@@ -16,5 +16,6 @@
     "var3": false,
     "var4": 5
   },
-  "allowNewFile": true
+  "allowNewFile": true,
+  "test": "mocha"
 }
